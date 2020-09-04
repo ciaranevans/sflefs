@@ -28,7 +28,7 @@ def handler(event, context):
                     invocation_type=aws_stepfunctions_tasks.InvocationType.EVENT,
                     payload=aws_stepfunctions.TaskInput.from_object(
                         {
-                            'Execution.$': '$$.Execution.Id'
+                            'thing.$': '$$.Execution.Id'
                         }
                     )
                 )

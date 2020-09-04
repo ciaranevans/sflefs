@@ -11,6 +11,7 @@ isort = "*"
 "aws-cdk.aws-lambda" = "*"
 "aws-cdk.aws-stepfunctions" = "*"
 "aws-cdk.aws-stepfunctions-tasks" = "*"
+boto3 = "*"
 
 [packages]
 
